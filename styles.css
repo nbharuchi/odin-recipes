@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.recipes {
+    color: crimson;
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 10px;
+
+
+}
+
+.mainrecipe {
+    color: crimson;
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.name {
+    color: beige;
+    text-decoration: none;
+    background-color: crimson;
+    display: block;
+    padding: 20px;
+    font-size: large;
+
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
