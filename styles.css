@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .title {
     text-align: center;
     color: rebeccapurple;
@@ -13,25 +17,57 @@
 
 }
 
+.nav {
+    border: 5px solid magenta;
+    display: flex;
+    padding: .5em;
+    list-style: none;
+
+}
+
 .mainrecipe {
+    border: 5px solid crimson;
+    padding: .5em;
+    width: 500px;
+    text-align: center;
+    color: crimson;
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+
+
+}
+
+.name {
+    color: rgb(245, 245, 188);
+    text-decoration: none;
+
+}
+
+/*.mainrecipe {
+    border: 2px solid blue;
     color: crimson;
     background-color: lightpink;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     padding: 10px;
-    display: inline-block;
+    width: 100px;
+    /*display: inline-block;
     margin-left: 100px;
 }
 
 .name {
+    border: 2px solid green;
     color: beige;
     text-decoration: none;
     background-color: crimson;
-    display: block;
+    /*display: block;
     padding: 20px;
     font-size: large;
 
-}
+}*/
 
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
